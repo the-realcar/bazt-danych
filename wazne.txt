@@ -1,0 +1,4 @@
+INSERT INTO zajezdnie (id_zajezdni, nazwa_zajezdni, adres_zajezdni, typ_zajezdni, miasto, dzielnica)
+VALUES(1,'OKM','Warszawska 16a',null,'Ostroleka','Kochlowice');
+
+SELECT * FROM public.zajezdnie;
