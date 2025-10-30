@@ -57,6 +57,23 @@ VALUES ('1','1','3'),
 ('5','13','3'),
 ('5','14','5');
 
+INSERT INTO rodzaje_przegladow (nazwa_rodzaju_przegladu)
+VALUES ("O1"),
+("OT"),
+("OM"),
+("OR"),
+("OO"),
+("OD"),
+("OS"),
+("OES");
+
+INSERT INTO typy_zajezdni (nazwa_typu)
+VALUES ("AUtobusowa"),
+("Trolejbusowa"),
+("Tramwajowa"),
+("Autobusowo-trolejbusowa"),
+("Inna");
+
 SELECT * FROM public.stanowiska;
 
 SELECT * FROM public.marki;
@@ -66,3 +83,5 @@ SELECT * FROM public.modele;
 SELECT * FROM public.grupy;
 
 SELECT * FROM public.marki_modele;
+
+SELECT * FROM public.rodzaje_przegladow;
